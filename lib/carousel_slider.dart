@@ -308,6 +308,7 @@ class CarouselSliderState extends State<CarouselSlider>
         dragDevices: {
           PointerDeviceKind.touch,
           PointerDeviceKind.mouse,
+          PointerDeviceKind.trackpad
         },
       ),
       clipBehavior: widget.options.clipBehavior,
